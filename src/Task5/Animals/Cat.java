@@ -1,4 +1,4 @@
-package Task5;
+package Task5.Animals;
 
 public class Cat extends Animals {
     private static int numCat;

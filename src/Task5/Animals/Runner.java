@@ -1,4 +1,4 @@
-package Task5;
+package Task5.Animals;
 
 public class Runner {
     public static void main(String[] args) {
@@ -23,7 +23,6 @@ public class Runner {
         Cat[] cats = {cat1, cat2};
         for (int i = 0; i < cats.length; i++) {
             cats[i].eat(5);
-            //cats[i] = eat(2);
         }
         for (int i = 0; i < cats.length; i++) {
             if (cats[i].isSatiety()) {
